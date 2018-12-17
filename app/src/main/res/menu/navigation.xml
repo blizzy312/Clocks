@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/fragment_alarm_clock">
+
+    <item
+        android:id="@+id/navigation_clock"
+        android:title="@string/navigation_clock"
+        android:icon="@drawable/ic_schedule_black_48dp"/>
+
+    <item
+        android:id="@+id/navigation_alarm_clock"
+        android:title="@string/navigation_alarm_clock"
+        android:icon="@drawable/ic_alarm_black_24dp"/>
+
+    <item
+        android:id="@+id/navigation_timer"
+        android:icon="@drawable/ic_hourglass_empty_black_24dp"
+        android:title="@string/navigation_timer"/>
+
+    <item
+        android:id="@+id/navigation_stop_watch"
+        android:icon="@drawable/ic_timer_black_24dp"
+        android:title="@string/navigation_stopwatch"/>
+
+    <item
+        android:id="@+id/navigation_setting"
+        android:icon="@drawable/ic_settings_black_48dp"
+        android:title="@string/navigation_setting"/>
+</menu>

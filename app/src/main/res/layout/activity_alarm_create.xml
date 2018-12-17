@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/backgroundClockScreenColor">
+
+    <LinearLayout
+        android:id="@+id/timePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <NumberPicker
+            android:id="@+id/hoursPicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.Picker" />
+
+        <NumberPicker
+            android:id="@+id/minutesPicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.Picker" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/timePicker">
+
+        <Button
+            android:id="@+id/sundayButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2.5dp"
+            android:layout_marginTop="2.5dp"
+            android:layout_marginRight="2.5dp"
+            android:layout_marginBottom="2.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_color_selector"
+            android:text="@string/SundayButton"
+            android:textColor="@color/clock" />
+
+        <Button
+            android:id="@+id/mondayButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2.5dp"
+            android:layout_marginTop="2.5dp"
+            android:layout_marginRight="2.5dp"
+            android:layout_marginBottom="2.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_color_selector"
+            android:text="@string/MondayButton"
+            android:textColor="@color/clock" />
+
+        <Button
+            android:id="@+id/tuesdayButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2.5dp"
+            android:layout_marginTop="2.5dp"
+            android:layout_marginRight="2.5dp"
+            android:layout_marginBottom="2.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_color_selector"
+            android:text="@string/TuesdayButton"
+            android:textColor="@color/clock" />
+
+        <Button
+            android:id="@+id/wednesdayButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2.5dp"
+            android:layout_marginTop="2.5dp"
+            android:layout_marginRight="2.5dp"
+            android:layout_marginBottom="2.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_color_selector"
+            android:text="@string/WednesdayButton"
+            android:textColor="@color/clock" />
+
+        <Button
+            android:id="@+id/thursdayButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2.5dp"
+            android:layout_marginTop="2.5dp"
+            android:layout_marginRight="2.5dp"
+            android:layout_marginBottom="2.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_color_selector"
+            android:text="@string/ThursdayButton"
+            android:textColor="@color/clock" />
+
+        <Button
+            android:id="@+id/fridayButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2.5dp"
+            android:layout_marginTop="2.5dp"
+            android:layout_marginRight="2.5dp"
+            android:layout_marginBottom="2.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_color_selector"
+            android:text="@string/FridayButton"
+            android:textColor="@color/clock" />
+
+        <Button
+            android:id="@+id/saturdayButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2.5dp"
+            android:layout_marginTop="2.5dp"
+            android:layout_marginRight="2.5dp"
+            android:layout_marginBottom="2.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_color_selector"
+            android:text="@string/SaturdayButton"
+            android:textColor="@color/clock" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2.5dp"
+            android:paddingRight="2.5dp"
+            android:text="@string/AlarmDescription"
+            android:textColor="@color/clock" />
+
+        <EditText
+            android:id="@+id/edit_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/AlarmDescriptionHint"
+            android:inputType="textAutoComplete"
+            android:textColor="@color/clock"
+            android:textColorHint="@color/clock"
+            android:importantForAutofill="no"
+            tools:targetApi="o"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="@string/CancelButton"
+            android:textColor="@color/clock" />
+
+        <Button
+            android:id="@+id/addAlarmButton"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="@string/SaveButton"
+            android:textColor="@color/clock" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

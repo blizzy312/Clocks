@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AlarmsContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:id="@+id/InfoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:background="#F1F3F6"
+        android:weightSum="6"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TimeFrame"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="12:30"
+                android:textSize="20sp"
+
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:id="@+id/DescriptionFrame"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Lunch Break"
+                android:textSize="14sp"
+                android:textColor="#949494"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/DaysFrame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textColor="#949494"
+            />
+
+        <Switch
+            android:id="@+id/AlarmStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</RelativeLayout>

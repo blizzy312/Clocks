@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Clocks</string>
+
+    <!-- Navigation bar titles -->
+    <string name="navigation_clock">Clock</string>
+    <string name="navigation_alarm_clock">Alarm Clock</string>
+    <string name="navigation_timer">Timer</string>
+    <string name="navigation_stopwatch">Stopwatch</string>
+    <string name="navigation_setting">Setting</string>
+
+    <!-- Main Screen -->
+    <string-array name="days_of_week">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <!-- Alarm Screen -->
+
+    <!-- Create alarm screen -->
+    <string name="SundayButton">S</string>
+    <string name="MondayButton">M</string>
+    <string name="TuesdayButton">T</string>
+    <string name="WednesdayButton">W</string>
+    <string name="ThursdayButton">T</string>
+    <string name="FridayButton">F</string>
+    <string name="SaturdayButton">S</string>
+
+    <string name="AlarmDescription">Alarm Description</string>
+    <string name="AlarmDescriptionHint">None</string>
+
+    <string name="SaveButton">Save</string>
+    <string name="CancelButton">Cancel</string>
+
+    <!-- Timer Screen -->
+    <string name="hours">Hours</string>
+    <string name="minutes">Seconds</string>
+    <string name="seconds">Minutes</string>
+
+    <!-- Setting Screen -->
+    <string name="time_format">Time Format</string>
+    <string name="show_days_of_week">Show Days of Week</string>
+    <string name="show_date">Show Date</string>
+
+    <!-- Buttons -->
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="resume">Resume</string>
+    <string name="reset">Reset</string>
+
+    <!-- Pop-up dialog window -->
+    <string name="alarm_dialog_title">Alarm</string>
+    <string name="alarm_dialog_dismiss">Dismiss</string>
+    <string name="alarm_dialog_snooze">Snooze</string>
+
+
+</resources>

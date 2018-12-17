@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Active tab -->
+    <item android:drawable="@drawable/bg_color_selected" android:state_focused="false" android:state_pressed="false" android:state_selected="true"/>
+    <!-- Inactive tab -->
+    <item android:drawable="@drawable/bg_color_unselected" android:state_focused="false" android:state_pressed="false" android:state_selected="false"/>
+
+
+</selector>

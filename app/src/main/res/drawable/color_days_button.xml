@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:state_pressed="true" android:color="#33691e"/>-->
+    <!--<item android:state_focused="true" android:color="#4a148c"/>-->
+    <item android:state_selected="true" android:color="@color/backgroundClockScreenColor"/>
+    <item android:color="#1565c0"/>
+</selector>
