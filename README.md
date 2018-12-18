@@ -1,5 +1,5 @@
 # Clocks
-This repository contains source code for simple clock application with alarm clock, timer and watch stop functions.
+This repository contains source code for simple clock application with alarm, timer and stop watch functions.
 Current state of of application - under development.
 
 ## Installation
