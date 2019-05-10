@@ -1,6 +1,6 @@
 # Clocks
 This repository contains source code for simple clock application with alarm, timer and stop watch functions.
-Current state of of application - under development.
+
 
 ## Installation
 Download this repository into your desired location (for example Desktop) using [git](https://git-scm.com/):
